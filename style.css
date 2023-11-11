@@ -32,11 +32,22 @@ body{
   padding: 5px;
 }
 
-@fontface{
-  font-family: '5by7regular';
-  src: url('https://raw.githubusercontent.com/irijahdeleon/irijahdeleon.github.io/blob/main/AVALON%20ASSETS/web%20assets/fonts/5by7-webfont.woff') format('woff');
-   font-weight: normal;
-   font-style: normal;
+@font-face {
+    font-family: 'helveticaregular';
+    src: url('helvetica-webfont.woff2') format('woff2'),
+         url('helvetica-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '5by7regular';
+    src: url('5by7-webfont.woff2') format('woff2'),
+         url('5by7-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 .grow1{
